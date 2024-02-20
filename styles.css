@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  nav a {
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  
+  .logo {
+    margin-left: 25px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    /* border: 1px solid; */
+    width: 150px;
+  
+  }
+  i{
+      font-size: 20px;
+  }
+  .bannermain{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .banner{
+      width: 96%;
+      height: 500px;
+      position: relative;
+      background-attachment: fixed;
+      background: url(img/hero.jpg);
+      background-size: cover;
+  
+  }
+  .banner img{
+      width: 100%;
+      height:100%;
+  }
+  .headingw{
+      position: absolute;
+      top: 25%;
+      left: 3%;
+      line-height: 45px;
+      height: 200px;
+      /* border: 2px solid; */
+      color: white;
+      
+  }
+  .headingw h3{
+      font-size: 15px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      letter-spacing: 2px;
+  }
+  .headingw h1,h3,p{
+      font-family: 'Libre Baskerville', serif;
+  }
+  .headingw h1{
+      width: 500px;
+      line-height: 72px;
+      font-size: 50px;
+  
+  }
+  .headingw p{
+      width: 450px;
+      line-height:25px ;
+  }
+  button{
+      width: 150px;
+      margin-top:5%;
+      border: none;
+      height: 45px;
+      font-family: 'Libre Baskerville', serif;
+  }
+  
+  /* LOGO */
+  
+  .logoslider{
+      width: 90%;
+      height: 200px;
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
+  
+  .logo{
+  
+  }
+  .logo {
+      
+      overflow: hidden;
+      .slider {
+        animation: slidein 30s linear infinite;
+        white-space: nowrap;
+        .logos {
+          width: 100%;
+          display: inline-block;
+          margin: 0px 0;
+          .fab {
+            width: calc(100% / 5);
+            animation: fade-in 0.5s 
+              cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+          }
+        }
+      }
+    }
+    
+    @keyframes slidein {
+      from {
+        transform: translate3d(0, 0, 0);
+      }
+      to {
+        transform: translate3d(-50%, 0, 0);
+      }
+    }
+    
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+.container2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+} 
+.container2 img{
+  width: 300px;
+  height: 300px;
+}   
+.content h3 a{
+    color: rgb(60, 60, 60);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+button{
+    width: 150px;
+    margin-top:5%;
+    border: none;
+    height: 45px;
+    background-color: #fca2d5;
+    /* color: rgb(255, 255, 255); */
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.content-in h4{
+    margin-top: -5%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.hero-banner h6,h1{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+  
+}
+.hero-banner{
+    margin-top: 5%;
+}
+.row{
+    margin-top: 4%;
+}
+.featured-content-list button{
+    margin-top: -4%;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+.btn{
+    background-color: #fdbee5;;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.btn i{
+  color: black;
+}
+.logs img{
+  width: 400px;
+  height: 300px;
+}
